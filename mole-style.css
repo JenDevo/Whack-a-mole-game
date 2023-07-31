@@ -1,7 +1,7 @@
 body {
     font-family: Arial, serif;
     text-align: center;
-    background: url("img/portfolioSplashpage.jpg");
+    background: url("img/whack-a-mando-bg.jpg");
     background-size: cover;
 }
 
@@ -21,8 +21,6 @@ body {
     align-self: center;
     width: 180px;
     height: 180px;
-    /*background-image: url("img/whack-a-mole-pipe.png");*/
-    /*background-size: cover;*/
 }
 
 #board div img {
@@ -44,6 +42,7 @@ body {
     background-color: #F0E7D8;
     border: solid 2px lightgrey;
     border-radius: 25px;
+    align-items: center;
 }
 
 .center-card{
