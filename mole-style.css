@@ -1,31 +1,31 @@
-body{
+body {
     font-family: Arial, serif;
     text-align: center;
     background: url("img/portfolioSplashpage.jpg");
     background-size: cover;
 }
 
-#board{
+#board {
     width: 600px;
     height: 600px;
-    background-color:#F0E7D8;
+    background-color: #F0E7D8;
 
-    margin:0 auto;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     border-radius: 25px;
 }
 
-#board div{
-    margin:0 auto;
+#board div {
+    margin: 0 auto;
     align-self: center;
     width: 180px;
     height: 180px;
-    background-image: url("img/whack-a-mole-pipe.png");
-    background-size: cover;
+    /*background-image: url("img/whack-a-mole-pipe.png");*/
+    /*background-size: cover;*/
 }
 
-#board div img{
+#board div img {
     width: 100px;
     height: 100px;
 
@@ -34,4 +34,11 @@ body{
     -webkit-user-drag: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+}
+
+.bg-card-title {
+    width: auto;
+    height: auto;
+    border: solid 1px lightgrey;
+    border-radius: 20%;
 }
