@@ -37,8 +37,11 @@ body {
 }
 
 .bg-card-title {
-    width: auto;
+    width: 600px;
     height: auto;
-    border: solid 1px lightgrey;
-    border-radius: 20%;
+    padding: 1em;
+    margin: 1em;
+    background-color: #F0E7D8;
+    border: solid 2px lightgrey;
+    border-radius: 25px;
 }
