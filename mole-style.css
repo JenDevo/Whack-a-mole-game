@@ -37,11 +37,16 @@ body {
 }
 
 .bg-card-title {
-    width: 600px;
-    height: auto;
+    width: auto;
+    height: 100px;
+    margin-bottom: auto;
     padding: 1em;
-    margin: 1em;
     background-color: #F0E7D8;
     border: solid 2px lightgrey;
     border-radius: 25px;
+}
+
+.center-card{
+    display: flex;
+    justify-content: center;
 }
